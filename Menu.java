@@ -8,7 +8,7 @@ public class Menu{
 	public void Menul () {
 		
 		teclado = new Scanner (System.in); 
-		
+		// teste
 		int opcao;		
 		
 		Notas notas = new Notas();
