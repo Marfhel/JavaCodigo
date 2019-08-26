@@ -1,8 +1,6 @@
 package project003;
 
-
 import java.util.Scanner;
-
 
 public class Menu{
 	
@@ -11,8 +9,7 @@ public class Menu{
 		
 		teclado = new Scanner (System.in); 
 		
-		int opcao;
-		
+		int opcao;		
 		
 		Notas notas = new Notas();
 		
@@ -23,10 +20,8 @@ public class Menu{
 		System.out.println("2 - Listar ");
 		System.out.println("3 - Sair ");
 		System.out.println("Digite o numero correspondente para opção: \n");
-	//teste para o github
-		
+	
 		opcao = teclado.nextInt();
-		
 		
 		if (opcao == 1) {
 	
